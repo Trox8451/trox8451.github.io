@@ -3,7 +3,7 @@ random_number *= 10; random_number++;
 random_number = Math.floor(random_number);
 var number_of_guesses = 0
 
-function guess_the_number(number) {
+function guess_the_number(number=random_number) {
 	while(true) {
 		number_guessed = prompt(`guess a number between 1 and 10, the number is ${number}`);
 		number_of_guesses++;
@@ -19,5 +19,3 @@ function guess_the_number(number) {
 		}
 	}
 }
-
-guess_the_number(random_number);
