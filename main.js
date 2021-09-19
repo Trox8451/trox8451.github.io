@@ -1,5 +1,5 @@
 var random_number = Math.random();
-random_number *= 10; random_number+=1;
+random_number *= 10; random_number++;
 random_number = Math.floor(random_number);
 var number_of_guesses = 0
 
