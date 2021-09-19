@@ -5,8 +5,9 @@
 	text-align: left;
 }
 .button {
-	backround-color: #159957;
+	background-color: #08c27e;
 	color: white;
 	border: none;
-	border-radius: 20%;
+	border-radius: 50%;
+	padding: 15px
 }
